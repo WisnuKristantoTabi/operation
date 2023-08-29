@@ -1,0 +1,169 @@
+CRITICAL - 2023-03-11 01:34:31 --> Object of class App\Models\PortModel could not be converted to string
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->add()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+CRITICAL - 2023-03-11 09:24:50 --> Undefined array key "route_id"
+#0 F:\Project\xampp\htdocs\operasional\app\Views\apps\schedule\add.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'F:\\Project\\xamp...', 89)
+#1 F:\Project\xampp\htdocs\operasional\system\View\View.php(220): include('F:\\Project\\xamp...')
+#2 F:\Project\xampp\htdocs\operasional\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\Project\xampp\htdocs\operasional\system\Common.php(1217): CodeIgniter\View\View->render('apps/schedule/a...', Array, true)
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Schedule.php(45): view('apps/schedule/a...', Array)
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Schedule->add()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-03-11 09:43:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'departure_date AS 'Tanggal Berangkat',departure_time AS 'Jam Berangkat',route...' at line 2 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-03-11 09:43:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'departure_date AS 'Tanggal Berangkat',departure_time AS 'Jam Berangkat',route...' at line 2
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-03-11 09:44:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'departure_date AS 'Tanggal Berangkat',departure_time AS 'Jam Berangkat',route...' at line 2 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-03-11 09:44:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'departure_date AS 'Tanggal Berangkat',departure_time AS 'Jam Berangkat',route...' at line 2
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-03-11 09:45:35 --> mysqli_sql_exception: Not unique table/alias: 'ports' in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-03-11 09:45:35 --> Not unique table/alias: 'ports'
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-03-11 09:46:24 --> mysqli_sql_exception: Not unique table/alias: 'ports' in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-03-11 09:46:24 --> Not unique table/alias: 'ports'
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-03-11 09:50:30 --> mysqli_sql_exception: Unknown column 'origin.port_name' in 'field list' in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(39): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-03-11 09:50:30 --> Unknown column 'origin.port_name' in 'field list'
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(39): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-03-11 09:51:16 --> mysqli_sql_exception: Unknown column 'schedule.origin.port_name' in 'field list' in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-03-11 09:51:16 --> Unknown column 'schedule.origin.port_name' in 'field list'
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}

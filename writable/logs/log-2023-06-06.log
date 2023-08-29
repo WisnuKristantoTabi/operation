@@ -1,0 +1,200 @@
+ERROR - 2023-06-06 07:27:06 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+CRITICAL - 2023-06-06 07:27:06 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+ERROR - 2023-06-06 09:36:17 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+CRITICAL - 2023-06-06 09:36:17 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+ERROR - 2023-06-06 09:52:26 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+CRITICAL - 2023-06-06 09:52:26 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+ERROR - 2023-06-06 10:20:01 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+CRITICAL - 2023-06-06 10:20:01 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+ERROR - 2023-06-06 10:35:23 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+CRITICAL - 2023-06-06 10:35:23 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+ERROR - 2023-06-06 10:48:54 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+CRITICAL - 2023-06-06 10:48:54 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+ERROR - 2023-06-06 10:50:17 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+CRITICAL - 2023-06-06 10:50:17 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+ERROR - 2023-06-06 13:51:58 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}
+CRITICAL - 2023-06-06 13:51:58 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'operasional.c.month_date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/wisnu/Documents/project/operasional/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wisnu/Documents/project/operasional/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wisnu/Documents/project/operasional/app/Models/DashboardModel.php(24): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wisnu/Documents/project/operasional/app/Controllers/Dashboard.php(25): App\Models\DashboardModel->getPon()
+#5 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /home/wisnu/Documents/project/operasional/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wisnu/Documents/project/operasional/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/wisnu/Documents/project/operasional/system/Commands/Server/rewrite.php(45): require_once('/home/wisnu/Doc...')
+#10 {main}

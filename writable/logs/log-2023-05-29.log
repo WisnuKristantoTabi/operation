@@ -1,0 +1,280 @@
+ERROR - 2023-05-29 00:00:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hoahoa 
+GROUP BY
+  cruises.cruise_type,
+  ship.ship_name,
+  agencies.agen...' at line 29 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(114): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): App\Models\OperationModel->getByDate('7', '2022')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('7', '2022')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-29 00:00:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hoahoa 
+GROUP BY
+  cruises.cruise_type,
+  ship.ship_name,
+  agencies.agen...' at line 29
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(114): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): App\Models\OperationModel->getByDate('7', '2022')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('7', '2022')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-05-29 00:57:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXTRACT(YEAR FROM operation.arrived_date) = 2022)
+GROUP BY
+  cruises.cruise...' at line 29 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(115): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): App\Models\OperationModel->getByDate('7', '2022')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('7', '2022')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-29 00:57:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXTRACT(YEAR FROM operation.arrived_date) = 2022)
+GROUP BY
+  cruises.cruise...' at line 29
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(115): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): App\Models\OperationModel->getByDate('7', '2022')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('7', '2022')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-05-29 00:58:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXTRACT(YEAR FROM operation.arrived_date) = 2022))
+GROUP BY
+  cruises.cruis...' at line 29 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(115): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): App\Models\OperationModel->getByDate('7', '2022')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('7', '2022')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-29 00:58:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXTRACT(YEAR FROM operation.arrived_date) = 2022))
+GROUP BY
+  cruises.cruis...' at line 29
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(115): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): App\Models\OperationModel->getByDate('7', '2022')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('7', '2022')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-05-29 01:00:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+GROUP BY
+  cruises.cruise_type,
+  ship.ship_name,
+  agencies.agency_cod...' at line 29 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(115): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): App\Models\OperationModel->getByDate('7', '2022')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('7', '2022')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-29 01:00:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+GROUP BY
+  cruises.cruise_type,
+  ship.ship_name,
+  agencies.agency_cod...' at line 29
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(115): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): App\Models\OperationModel->getByDate('7', '2022')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('7', '2022')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-29 09:17:11 --> Too few arguments to function App\Controllers\Operation::download(), 0 passed in F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php on line 936 and exactly 2 expected
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+CRITICAL - 2023-05-29 09:35:44 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\ColumnDimension::setColumnWidth()
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(163): App\Helpers\ExcelHelper->downloadExcelToDatabase()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-29 09:35:59 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\ColumnDimension::setRowHeight()
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(163): App\Helpers\ExcelHelper->downloadExcelToDatabase()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-29 09:50:09 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getActiveSheet()
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(163): App\Helpers\ExcelHelper->downloadExcelToDatabase()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-29 10:02:02 --> Too few arguments to function App\Controllers\Operation::download(), 0 passed in F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php on line 936 and exactly 2 expected
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+CRITICAL - 2023-05-29 10:03:36 --> Too few arguments to function App\Helpers\ExcelHelper::downloadExcelToDatabase(), 0 passed in F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php on line 163 and exactly 1 expected
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(163): App\Helpers\ExcelHelper->downloadExcelToDatabase()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download('7', '2023')
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+ERROR - 2023-05-29 10:06:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Pelayaran,
+  ship.ship_name,
+  agencies.agency_code,
+  arrived_date,
+  ar...' at line 2 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(166): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(165): App\Models\OperationModel->downloadOperation('7', '2023')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download('7', '2023')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-29 10:06:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Pelayaran,
+  ship.ship_name,
+  agencies.agency_code,
+  arrived_date,
+  ar...' at line 2
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(166): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(165): App\Models\OperationModel->downloadOperation('7', '2023')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download('7', '2023')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-29 10:29:22 --> Attempt to read property "cruise_type" on array
+#0 F:\Project\xampp\htdocs\operasional\app\Helpers\ExcelHelper.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'F:\\Project\\xamp...', 106)
+#1 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(164): App\Helpers\ExcelHelper->downloadExcelToDatabase(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download('5', '2023')
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#7 {main}
+CRITICAL - 2023-05-29 10:31:38 --> Attempt to read property "cruise_type" on array
+#0 F:\Project\xampp\htdocs\operasional\app\Helpers\ExcelHelper.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'F:\\Project\\xamp...', 106)
+#1 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(164): App\Helpers\ExcelHelper->downloadExcelToDatabase(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download('5', '2023')
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#7 {main}
+CRITICAL - 2023-05-29 10:33:57 --> Attempt to read property "cruise_type" on array
+#0 F:\Project\xampp\htdocs\operasional\app\Helpers\ExcelHelper.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'F:\\Project\\xamp...', 106)
+#1 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(165): App\Helpers\ExcelHelper->downloadExcelToDatabase(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->download('5', '2023')
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#7 {main}
+ERROR - 2023-05-29 18:27:39 --> mysqli_sql_exception: Unknown column 'date_column' in 'where clause' in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\DashboardModel.php(16): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Dashboard.php(26): App\Models\DashboardModel->getPon()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-29 18:27:39 --> Unknown column 'date_column' in 'where clause'
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\DashboardModel.php(16): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Dashboard.php(26): App\Models\DashboardModel->getPon()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-05-29 18:46:15 --> mysqli_sql_exception: Table 'operasional.passenger_data' doesn't exist in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n\r\n        SEL...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\r\n        SEL...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\r\n        SEL...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\DashboardModel.php(21): CodeIgniter\Database\BaseConnection->query('\r\n\r\n        SEL...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Dashboard.php(26): App\Models\DashboardModel->getPon()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-29 18:46:15 --> Table 'operasional.passenger_data' doesn't exist
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n\r\n        SEL...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\r\n        SEL...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\r\n        SEL...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\DashboardModel.php(21): CodeIgniter\Database\BaseConnection->query('\r\n\r\n        SEL...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Dashboard.php(26): App\Models\DashboardModel->getPon()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}

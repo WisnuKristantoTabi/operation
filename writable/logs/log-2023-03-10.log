@@ -1,0 +1,18 @@
+CRITICAL - 2023-03-10 23:54:48 --> Invalid file: apps/operation/add.php
+#0 F:\Project\xampp\htdocs\operasional\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('apps/operation/...')
+#1 F:\Project\xampp\htdocs\operasional\system\Common.php(1217): CodeIgniter\View\View->render('apps/operation/...', Array, true)
+#2 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(27): view('apps/operation/...', Array)
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->add()
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#8 {main}
+CRITICAL - 2023-03-10 23:57:35 --> Undefined variable $ships
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'F:\\Project\\xamp...', 25)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->add()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}

@@ -1,0 +1,12 @@
+CRITICAL - 2023-04-09 22:10:09 --> Undefined variable $title_meta
+#0 F:\Project\xampp\htdocs\operasional\app\Views\apps\operations\add.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'F:\\Project\\xamp...', 6)
+#1 F:\Project\xampp\htdocs\operasional\system\View\View.php(220): include('F:\\Project\\xamp...')
+#2 F:\Project\xampp\htdocs\operasional\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\Project\xampp\htdocs\operasional\system\Common.php(1217): CodeIgniter\View\View->render('apps/operations...', Array, true)
+#4 F:\Project\xampp\htdocs\operasional\app\Config\Routes.php(63): view('apps/operations...')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(883): CodeIgniter\CodeIgniter::Config\{closure}()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}

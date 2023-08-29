@@ -1,0 +1,95 @@
+CRITICAL - 2023-03-08 01:32:00 --> Array to string conversion
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Schedule.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'F:\\Project\\xamp...', 23)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Schedule->index()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-03-08 01:50:57 --> Undefined property: App\Controllers\Schedule::$produk
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Schedule.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'F:\\Project\\xamp...', 88)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Schedule->delete('1')
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+ERROR - 2023-03-08 07:23:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR departure_date >='2023-03-08'departure_date <= DATE(departure_date)
+     ...' at line 3 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT * FROM ...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * FROM ...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * FROM ...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(22): CodeIgniter\Database\BaseConnection->query(' SELECT * FROM ...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Schedule.php(21): App\Models\ScheduleModel->getSchedules()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Schedule->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-03-08 07:23:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR departure_date >='2023-03-08'departure_date <= DATE(departure_date)
+     ...' at line 3
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT * FROM ...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * FROM ...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * FROM ...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(22): CodeIgniter\Database\BaseConnection->query(' SELECT * FROM ...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Schedule.php(21): App\Models\ScheduleModel->getSchedules()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Schedule->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-03-08 07:24:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'departure_date <= DATE(departure_date))
+        ORDER BY arrived_date ASC' at line 3 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT * FROM ...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * FROM ...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * FROM ...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(22): CodeIgniter\Database\BaseConnection->query(' SELECT * FROM ...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Schedule.php(21): App\Models\ScheduleModel->getSchedules()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Schedule->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-03-08 07:24:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'departure_date <= DATE(departure_date))
+        ORDER BY arrived_date ASC' at line 3
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT * FROM ...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * FROM ...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * FROM ...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(22): CodeIgniter\Database\BaseConnection->query(' SELECT * FROM ...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Schedule.php(21): App\Models\ScheduleModel->getSchedules()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Schedule->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-03-08 22:51:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kapal,arrived_date,arrived_time,departure_date,departure_time,status FROM sch...' at line 1 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-03-08 22:51:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kapal,arrived_date,arrived_time,departure_date,departure_time,status FROM sch...' at line 1
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(40): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}

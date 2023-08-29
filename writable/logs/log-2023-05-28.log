@@ -1,0 +1,199 @@
+ERROR - 2023-05-28 19:19:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-05-28 19:19:29 --> Unable to connect to the database.
+#0 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\Project\xampp\htdocs\operasional\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Login.php(15): CodeIgniter\BaseModel->first()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-28 19:24:01 --> Undefined array key "load_commodity"
+#0 F:\Project\xampp\htdocs\operasional\app\Views\apps\operations\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'F:\\Project\\xamp...', 84)
+#1 F:\Project\xampp\htdocs\operasional\system\View\View.php(220): include('F:\\Project\\xamp...')
+#2 F:\Project\xampp\htdocs\operasional\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\Project\xampp\htdocs\operasional\system\Common.php(1217): CodeIgniter\View\View->render('apps/operations...', Array, true)
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(36): view('apps/operations...', Array)
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-28 19:24:57 --> Undefined array key "domestic"
+#0 F:\Project\xampp\htdocs\operasional\app\Views\apps\operations\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'F:\\Project\\xamp...', 84)
+#1 F:\Project\xampp\htdocs\operasional\system\View\View.php(220): include('F:\\Project\\xamp...')
+#2 F:\Project\xampp\htdocs\operasional\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\Project\xampp\htdocs\operasional\system\Common.php(1217): CodeIgniter\View\View->render('apps/operations...', Array, true)
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(36): view('apps/operations...', Array)
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-28 19:25:35 --> Undefined array key "domestic"
+#0 F:\Project\xampp\htdocs\operasional\app\Views\apps\operations\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'F:\\Project\\xamp...', 84)
+#1 F:\Project\xampp\htdocs\operasional\system\View\View.php(220): include('F:\\Project\\xamp...')
+#2 F:\Project\xampp\htdocs\operasional\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\Project\xampp\htdocs\operasional\system\Common.php(1217): CodeIgniter\View\View->render('apps/operations...', Array, true)
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(36): view('apps/operations...', Array)
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-28 19:26:42 --> Undefined array key "load_qty"
+#0 F:\Project\xampp\htdocs\operasional\app\Views\apps\operations\index.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'F:\\Project\\xamp...', 87)
+#1 F:\Project\xampp\htdocs\operasional\system\View\View.php(220): include('F:\\Project\\xamp...')
+#2 F:\Project\xampp\htdocs\operasional\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\Project\xampp\htdocs\operasional\system\Common.php(1217): CodeIgniter\View\View->render('apps/operations...', Array, true)
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(36): view('apps/operations...', Array)
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-28 19:26:57 --> Undefined array key "load_qty"
+#0 F:\Project\xampp\htdocs\operasional\app\Views\apps\operations\index.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'F:\\Project\\xamp...', 87)
+#1 F:\Project\xampp\htdocs\operasional\system\View\View.php(220): include('F:\\Project\\xamp...')
+#2 F:\Project\xampp\htdocs\operasional\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\Project\xampp\htdocs\operasional\system\Common.php(1217): CodeIgniter\View\View->render('apps/operations...', Array, true)
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(36): view('apps/operations...', Array)
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-28 19:31:04 --> Undefined array key "domestic_data"
+#0 F:\Project\xampp\htdocs\operasional\app\Views\apps\operations\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'F:\\Project\\xamp...', 84)
+#1 F:\Project\xampp\htdocs\operasional\system\View\View.php(220): include('F:\\Project\\xamp...')
+#2 F:\Project\xampp\htdocs\operasional\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\Project\xampp\htdocs\operasional\system\Common.php(1217): CodeIgniter\View\View->render('apps/operations...', Array, true)
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(36): view('apps/operations...', Array)
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-28 21:16:56 --> Call to undefined function App\Controllers\importExcelToDatabase()
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->Import()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+CRITICAL - 2023-05-28 21:21:35 --> Call to undefined function App\Controllers\importExcelToDatabase()
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->Import()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+CRITICAL - 2023-05-28 21:28:38 --> Class "App\Helpers\excel_helper" not found
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->import()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+CRITICAL - 2023-05-28 21:28:52 --> Class "App\Helpers\excel_helper" not found
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->import()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+CRITICAL - 2023-05-28 21:35:57 --> Array to string conversion
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'F:\\Project\\xamp...', 138)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->import()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-28 21:49:41 --> Array to string conversion
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'F:\\Project\\xamp...', 142)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->import()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+ERROR - 2023-05-28 22:39:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY
+  cruises.cruise_type,
+  ship.ship_name,
+  agencies.agency_code,...' at line 31 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(61): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(32): App\Models\OperationModel->getOperasional()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-28 22:39:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY
+  cruises.cruise_type,
+  ship.ship_name,
+  agencies.agency_code,...' at line 31
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(61): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(32): App\Models\OperationModel->getOperasional()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->index()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-28 23:37:11 --> Undefined variable $operations
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'F:\\Project\\xamp...', 153)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('12', '9')
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+ERROR - 2023-05-28 23:37:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY
+  cruises.cruise_type,
+  ship.ship_name,
+  agencies.agency_code,...' at line 30 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(114): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): App\Models\OperationModel->getByDate('12', '9')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('12', '9')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-28 23:37:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY
+  cruises.cruise_type,
+  ship.ship_name,
+  agencies.agency_code,...' at line 30
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('\r\n        SELEC...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\OperationModel.php(114): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(153): App\Models\OperationModel->getByDate('12', '9')
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->showByDate('12', '9')
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}

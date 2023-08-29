@@ -1,0 +1,399 @@
+ERROR - 2023-05-23 12:01:03 --> mysqli_sql_exception: Unknown column 'route_desc' in 'field list' in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(54): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-23 12:01:03 --> Unknown column 'route_desc' in 'field list'
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(54): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-05-23 12:14:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN ports on schedule.origin =  ports.port_id 
+        WHERE (departure_dat...' at line 4 in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(53): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-23 12:14:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN ports on schedule.origin =  ports.port_id 
+        WHERE (departure_dat...' at line 4
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(53): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-05-23 12:34:49 --> mysqli_sql_exception: Table 'operasional.portsr' doesn't exist in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(53): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+CRITICAL - 2023-05-23 12:34:49 --> Table 'operasional.portsr' doesn't exist
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query(' SELECT ship_na...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ship_na...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ship_na...')
+#3 F:\Project\xampp\htdocs\operasional\app\Models\ScheduleModel.php(53): CodeIgniter\Database\BaseConnection->query(' SELECT ship_na...')
+#4 F:\Project\xampp\htdocs\operasional\app\Controllers\API.php(14): App\Models\ScheduleModel->getSchedulesAPI()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\API->Schedule()
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#7 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#10 {main}
+ERROR - 2023-05-23 15:14:37 --> mysqli_sql_exception: Column 'route_id' cannot be null in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `sc...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 F:\Project\xampp\htdocs\operasional\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 F:\Project\xampp\htdocs\operasional\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 F:\Project\xampp\htdocs\operasional\app\Controllers\Schedule.php(58): CodeIgniter\Model->insert(Array)
+#8 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Schedule->save()
+#9 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#10 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#13 {main}
+CRITICAL - 2023-05-23 15:14:37 --> Column 'route_id' cannot be null
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `sc...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 F:\Project\xampp\htdocs\operasional\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 F:\Project\xampp\htdocs\operasional\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 F:\Project\xampp\htdocs\operasional\app\Controllers\Schedule.php(58): CodeIgniter\Model->insert(Array)
+#8 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Schedule->save()
+#9 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#10 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#13 {main}
+CRITICAL - 2023-05-23 19:18:09 --> Undefined variable $users
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Schedule.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'F:\\Project\\xamp...', 118)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Schedule->exportExcel()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 19:35:51 --> Class "App\Models\CruiseModel" not found
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->add()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+CRITICAL - 2023-05-23 19:36:15 --> Class "App\Models\CruiseModel" not found
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->add()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+ERROR - 2023-05-23 20:13:15 --> mysqli_sql_exception: Unknown column 'ship_id' in 'field list' in F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `op...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 F:\Project\xampp\htdocs\operasional\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 F:\Project\xampp\htdocs\operasional\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(61): CodeIgniter\Model->insert(Array)
+#8 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#9 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#10 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#13 {main}
+CRITICAL - 2023-05-23 20:13:15 --> Unknown column 'ship_id' in 'field list'
+#0 F:\Project\xampp\htdocs\operasional\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `op...')
+#1 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 F:\Project\xampp\htdocs\operasional\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 F:\Project\xampp\htdocs\operasional\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 F:\Project\xampp\htdocs\operasional\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(61): CodeIgniter\Model->insert(Array)
+#8 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#9 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#10 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#13 {main}
+CRITICAL - 2023-05-23 20:15:31 --> CodeIgniter\Database\BaseBuilder::set(): Argument #2 ($value) must be of type ?string, array given, called in F:\Project\xampp\htdocs\operasional\system\Model.php on line 275
+#0 F:\Project\xampp\htdocs\operasional\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('load_qty', Array, NULL)
+#1 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(71): CodeIgniter\Model->insert(Array)
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#9 {main}
+CRITICAL - 2023-05-23 20:19:08 --> CodeIgniter\Database\BaseBuilder::set(): Argument #2 ($value) must be of type ?string, array given, called in F:\Project\xampp\htdocs\operasional\system\Model.php on line 275
+#0 F:\Project\xampp\htdocs\operasional\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('load_qty', Array, NULL)
+#1 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(71): CodeIgniter\Model->insert(Array)
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#9 {main}
+CRITICAL - 2023-05-23 20:20:49 --> CodeIgniter\Database\BaseBuilder::set(): Argument #2 ($value) must be of type ?string, array given, called in F:\Project\xampp\htdocs\operasional\system\Model.php on line 275
+#0 F:\Project\xampp\htdocs\operasional\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('load_qty', Array, NULL)
+#1 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(71): CodeIgniter\Model->insert(Array)
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#9 {main}
+CRITICAL - 2023-05-23 20:23:15 --> CodeIgniter\Database\BaseBuilder::set(): Argument #2 ($value) must be of type ?string, array given, called in F:\Project\xampp\htdocs\operasional\system\Model.php on line 275
+#0 F:\Project\xampp\htdocs\operasional\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('load_qty', Array, NULL)
+#1 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(71): CodeIgniter\Model->insert(Array)
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#9 {main}
+CRITICAL - 2023-05-23 20:27:43 --> CodeIgniter\Database\BaseBuilder::set(): Argument #2 ($value) must be of type ?string, array given, called in F:\Project\xampp\htdocs\operasional\system\Model.php on line 275
+#0 F:\Project\xampp\htdocs\operasional\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('load_qty', Array, NULL)
+#1 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(71): CodeIgniter\Model->insert(Array)
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#9 {main}
+CRITICAL - 2023-05-23 20:28:11 --> CodeIgniter\Database\BaseBuilder::set(): Argument #2 ($value) must be of type ?string, array given, called in F:\Project\xampp\htdocs\operasional\system\Model.php on line 275
+#0 F:\Project\xampp\htdocs\operasional\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('load_qty', Array, NULL)
+#1 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(71): CodeIgniter\Model->insert(Array)
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#9 {main}
+CRITICAL - 2023-05-23 20:29:09 --> CodeIgniter\Database\BaseBuilder::set(): Argument #2 ($value) must be of type ?string, array given, called in F:\Project\xampp\htdocs\operasional\system\Model.php on line 275
+#0 F:\Project\xampp\htdocs\operasional\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('load_qty', Array, NULL)
+#1 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(71): CodeIgniter\Model->insert(Array)
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#9 {main}
+CRITICAL - 2023-05-23 20:29:38 --> CodeIgniter\Database\BaseBuilder::set(): Argument #2 ($value) must be of type ?string, array given, called in F:\Project\xampp\htdocs\operasional\system\Model.php on line 275
+#0 F:\Project\xampp\htdocs\operasional\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('load_qty', Array, NULL)
+#1 F:\Project\xampp\htdocs\operasional\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 F:\Project\xampp\htdocs\operasional\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(70): CodeIgniter\Model->insert(Array)
+#4 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#5 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#6 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#9 {main}
+CRITICAL - 2023-05-23 20:49:04 --> Undefined property: App\Controllers\Operation::$input
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'F:\\Project\\xamp...', 64)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:01:04 --> Undefined variable $request
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'F:\\Project\\xamp...', 67)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:16:03 --> Undefined property: App\Controllers\Operation::$input
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'F:\\Project\\xamp...', 65)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:17:11 --> Undefined property: App\Controllers\Operation::$input
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'F:\\Project\\xamp...', 65)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:21:23 --> Undefined property: App\Controllers\Operation::$input
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'F:\\Project\\xamp...', 65)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:21:59 --> Undefined property: App\Controllers\Operation::$input
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'F:\\Project\\xamp...', 65)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:25:14 --> Trying to access array offset on value of type null
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'F:\\Project\\xamp...', 67)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:25:41 --> Trying to access array offset on value of type null
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'F:\\Project\\xamp...', 67)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:26:10 --> Trying to access array offset on value of type null
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'F:\\Project\\xamp...', 67)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:32:03 --> Undefined property: App\Controllers\Operation::$input
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'F:\\Project\\xamp...', 66)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:35:03 --> Trying to access array offset on value of type null
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'F:\\Project\\xamp...', 67)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:35:20 --> Trying to access array offset on value of type null
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'F:\\Project\\xamp...', 67)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:35:48 --> Trying to access array offset on value of type null
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'F:\\Project\\xamp...', 67)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 21:42:38 --> Array to string conversion
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'F:\\Project\\xamp...', 66)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 22:02:31 --> Attempt to assign property "" on null
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+CRITICAL - 2023-05-23 22:02:46 --> Attempt to assign property "no" on null
+#0 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#5 {main}
+CRITICAL - 2023-05-23 22:05:34 --> Trying to access array offset on value of type null
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'F:\\Project\\xamp...', 81)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 22:05:54 --> Trying to access array offset on value of type null
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'F:\\Project\\xamp...', 81)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
+CRITICAL - 2023-05-23 22:06:11 --> Trying to access array offset on value of type null
+#0 F:\Project\xampp\htdocs\operasional\app\Controllers\Operation.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'F:\\Project\\xamp...', 81)
+#1 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(936): App\Controllers\Operation->save()
+#2 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operation))
+#3 F:\Project\xampp\htdocs\operasional\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\Project\xampp\htdocs\operasional\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 F:\Project\xampp\htdocs\operasional\system\Commands\Server\rewrite.php(45): require_once('F:\\Project\\xamp...')
+#6 {main}
